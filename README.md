@@ -2,13 +2,6 @@
 
 Esse é o README da API de listagem de produtos, teste da AMMO.
 
-#Instalação
-
-* Instale o xampp versão 7.2.10, com sua configuração padrão
-* Descarregue todos os arquivos no caminho: 'Disco Local'> xampp > htdocs 
-* Instale o SQLyog ou um gerenciador de BD de seu gosto
-
-
 #Tecnologias utilizadas
 
 * PHP 
@@ -16,6 +9,12 @@ Esse é o README da API de listagem de produtos, teste da AMMO.
 * JQuery 
 * HTML
 * MySQL
+
+#Instalação
+
+* Instale o xampp versão 7.2.10, com sua configuração padrão
+* Descarregue todos os arquivos no caminho: 'Disco Local'> xampp > htdocs 
+* Instale o SQLyog ou um gerenciador de BD de seu gosto
 
 #Utilização
 
