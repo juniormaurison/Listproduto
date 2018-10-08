@@ -116,7 +116,7 @@ $num_paginas = ceil($num_total/$itens_por_pagina);
 										if($pagina == $i)
 											$estilo = "class=\"active\"";
 										?>
-										<li <?php echo $estilo; ?> ><a href="index.php?pagina=<?php echo $i; ?>&quantpag=<?php echo $_GET['quantpag']?>"><?php echo $i; ?></a></li>
+										<li <?php echo $estilo; ?> ><a href="index.php?pagina=<?php echo $i; ?>&quantpag=<?php echo $_GET['quantpag']?>&search_prod=<?php echo $_GET['search_prod'];?>"><?php echo $i; ?></a></li>
 									<?php } ?>
 									<li>
 										<a href="index.php?pagina=<?php echo $num_paginas; ?>" aria-label="Next">
