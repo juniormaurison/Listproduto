@@ -21,8 +21,19 @@ Esse é o README da API de listagem de produtos, teste da AMMO.
 * O campo de busca de produtos é 'automatico', é necessário digitar no mínimo 3 caracteres e sua busca acontece automaticamente após 3 segundos do ultimo caracter digitado.
 * A quantidade de itens por página funciona com onChange
 
+#Configuração para utilização Local.
 
+* Edite o arquivo 'conexao.php' localizado em na pasta 'php'
+*altere o valor das variáveis:
+	+ hostname_conexao > localhost
+	+ database_conexao > apirest
+	+ username_conexao > root
+	+ password_conexao > ''(vazio)
+	
 #Estrutura do Banco de Dados
+
+CREATE DATABASE `apirest`
+
 
 CREATE TABLE `produtogeral` (
   `idproduto` int(11) NOT NULL AUTO_INCREMENT,
@@ -38,3 +49,4 @@ CREATE TABLE `produtogeral` (
 ) ENGINE=MyISAM AUTO_INCREMENT=79 DEFAULT CHARSET=latin1;
 
 insert  into `produtogeral`(`idproduto`,`nomeproduto`,`imgproduto1`,`imgproduto2`,`imgproduto3`,`precoproduto`,`descricaoproduto`,`tipo`,`precodesconto`) values (1,'Kit cama 210 fios','prod1.jpg','prod2.jpg','prod3.jpg','350.00','Classic',1,'298.00')
+
