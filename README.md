@@ -23,7 +23,7 @@ Esse é o README da API de listagem de produtos, teste da AMMO.
 
 #Configuração para utilização Local.
 
-* Edite o arquivo 'conexao.php' localizado em na pasta 'php'
+* Edite o arquivo 'conexao.php' localizado na pasta 'php'
 *altere o valor das variáveis:
 	+ hostname_conexao > localhost
 	+ database_conexao > apirest
